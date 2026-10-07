@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(249, 201, 224);
+    color: black;
+}
+
+#main {
+    /* Put the things inside this element next to each other.
+    HTML doesn't normally put them side by side. By default, most <div> elements are block elements, so they stack vertically:*/
+    display: flex;
+}
+
+#sidepanel {
+    width: 25%;
+    min-height: 80vh;
+    border-right: 1px solid gray;
+    padding: 20px;
+}
+
+#content {
+    width: 75%;
+    padding: 20px;
+}
+#heading {
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: transparent;
+}
